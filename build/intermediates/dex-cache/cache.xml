@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_f8791b82f22dff6611928a2cb4b61d74bdd42156/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4427c085ed7f7cf02b7b069751b9ffc90a99439d">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3e920a0ff35e5c74f757e06a919a4c07cd2e7544/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_c630a9e994c9f05ec48654acef9813b84528126c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_77a8f178685f9ea419c2dc73c7b4bc1d80edaff2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_497f788159eed9ca83a09728ef667c962ea0fd2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_487a212a9363cf0c778661a9552fe8fba2e70580/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_edcfa0793070c17d0d8c65a816f0fbb154054740/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_54a8b0faabf2a95bef3c1a0d8751ae433c1bf2bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d5fdb1c610f28bf7f20c9d42a6c02c153e2665b">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ddc64b93067afffe8e63dc7b45e5cbd73f51c15e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_5c16fc70b2b97af0e0ad89b6feee5621a315eb40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_11fe7464e2e540b4b5dcade2129457a0b220b979/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_15065947076d8d7dcbb6af87a2872ab1fcbbc452/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_f35c11786b0ff1051d7c537d654c924052c815f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_f995da5e606d4e1b338bddf0254d657bfb6af31b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_ca47c9581921ab758cada9ab2e0c8abe054426ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_4faf1d8deae5d4adee31e1d1795d31a79133944e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_23fef79c40f06cc3392c85d091394050b1981ba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_33ff49c30273148874a2504b7a8c594ecefe6baa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b6c2b0275ce0f584338f7343ea18bb6b807d9873/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/Nicolassabatier/Desktop/QuizzApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_f4e5a6a18382bfac15e37b3c2a6b7fa9a0b1c25c/classes.dex" />
+    </item>
+
+</items>
