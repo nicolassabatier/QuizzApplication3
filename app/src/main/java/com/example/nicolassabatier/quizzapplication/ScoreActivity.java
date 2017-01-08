@@ -18,20 +18,20 @@ import java.util.List;
 import static android.R.layout.simple_list_item_1;
 
 public class ScoreActivity extends AppCompatActivity {
-    //ArrayList<String> playername = new ArrayList();
+
     ArrayList<String> rrlist = new ArrayList<String>();//List to print
     ArrayList<Integer> rrlist2 = new ArrayList<Integer>();
-    static ArrayList<Player> Playerlist = new ArrayList<>();
+    static ArrayList<Player> Playerlist = new ArrayList<>(); // STATIC to store the data
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
         Intent intent = getIntent();
-        Bundle mybundle=this.getIntent().getExtras();
-        Player newPlayer = (Player) mybundle.getSerializable("newPlayer");
-        final List<Question> questionsPlay = (List<Question>) mybundle.getSerializable("questionsPlay");
-        //Player newPlayer = (Player) intent.getSerializableExtra("newPlayer");
+        Bundle mybundle=this.getIntent().getExtras(); // passing data from Playing Activity
+        Player newPlayer = (Player) mybundle.getSerializable("newPlayer"); // Initializing newPlayer with correct name and score
+        final List<Question> questionsPlay = (List<Question>) mybundle.getSerializable("questionsPlay"); // Initializing the list of questions
+                                                                                             // in order to pass to Playing if there is challenger
         Playerlist.add(newPlayer);
         SortTheScore(Playerlist);
         int PlayerListSize=Playerlist.size();
@@ -66,7 +66,6 @@ public class ScoreActivity extends AppCompatActivity {
             Intent intention = new Intent(ScoreActivity.this, SecondPlayerActivity.class);
             Bundle bundle = new Bundle();
             bundle.putSerializable("questionsPlay", (Serializable) questionsPlay);
-            //intention.putExtra("newPlayer",newPlayer);
             intention.putExtras(bundle);
             startActivity(intention);
 
@@ -76,7 +75,7 @@ public class ScoreActivity extends AppCompatActivity {
 
     }
 
-    public void SortTheScore(ArrayList<Player> list) {
+    public void SortTheScore(ArrayList<Player> list) { // Order the player list
         int listsize = list.size();
         if (listsize>=1){
             int l=0;

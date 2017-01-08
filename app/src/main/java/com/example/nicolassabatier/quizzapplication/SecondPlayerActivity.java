@@ -22,7 +22,6 @@ public class SecondPlayerActivity extends AppCompatActivity
 
 
 
-
     @Override
 
     protected void onCreate(Bundle savedInstanceState)
@@ -42,10 +41,10 @@ public class SecondPlayerActivity extends AppCompatActivity
                 String name = nameField.getText().toString();
                 aplayer.setName(name);
 
-                //playername = aplayer.getName();
-                Intent intention = new Intent(SecondPlayerActivity.this, PlayingSecondPlayer.class);
+
+                Intent intention = new Intent(SecondPlayerActivity.this, DisplayQuestionActivity.class);
+                intention.putExtra("aplayer",aplayer); // passing data to Playing Activity
                 Bundle bundle = new Bundle();
-                bundle.putSerializable("newPlayer",aplayer);
                 bundle.putSerializable("questionsPlay", (Serializable) questionsPlay);
                 intention.putExtras(bundle);
                 startActivity(intention);
