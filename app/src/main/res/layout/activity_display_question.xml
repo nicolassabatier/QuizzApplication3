@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nicolassabatier.quizzapplication.DisplayQuestionActivity">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/afghanistan"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton1"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton1"
+        android:id="@+id/imageButton2"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton2"
+        android:id="@+id/imageButton3"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton3"
+        android:id="@+id/imageButton4"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton4"
+        android:id="@+id/imageButton5"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton5"
+        android:id="@+id/imageButton6"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton6"
+        android:id="@+id/imageButton7"/>
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/afghanistan"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:id="@+id/imageButton8"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8"
+        android:id="@+id/imageButton9"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:id="@+id/imageButton10"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton10"
+        android:layout_alignStart="@+id/imageButton8"
+        android:id="@+id/imageButton11"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton11"
+        android:layout_alignStart="@+id/imageButton8"
+        android:id="@+id/imageButton12"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton8"
+        android:id="@+id/imageButton13"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_below="@+id/imageButton13"
+        android:layout_alignStart="@+id/imageButton8"
+        android:id="@+id/imageButton14"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/african_union"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton8"
+        android:id="@+id/imageButton15"/>
+
+
+
+</RelativeLayout>

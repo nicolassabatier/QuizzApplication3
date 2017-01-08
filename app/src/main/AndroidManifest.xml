@@ -48,8 +48,9 @@
         </activity>
         <activity android:name=".ScoreActivity"/>
         <activity android:name=".Playing"/>
-        <activity android:name=".PlayingSecondPlayer"/>
         <activity android:name=".SecondPlayerActivity">
+        </activity>
+        <activity android:name=".DisplayQuestionActivity">
         </activity>
     </application>
 
