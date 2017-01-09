@@ -1,0 +1,77 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package databaseflag;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import java.util.Collections;
+
+/**
+ *
+ * @author Nicolassabatier
+ */
+public class Databaseflag {
+
+   
+   private static ArrayList<String> getNameRandom(String name,ArrayList listofcountries){
+       int RandNum;
+       final int MAX=(listofcountries.size()-1);
+       final int MIN=0;
+       
+       int count=0;
+       ArrayList listofanswer = new ArrayList();
+       //int RandNum2= ((int) (Math.random()*(3)));
+       listofanswer.add(name);
+       
+       // listofanswer.add(name);
+       
+       while(count<3)
+           
+       {
+           RandNum= ((int) (Math.random()*(MAX+1-MIN)+MIN));
+           count++;
+           listofanswer.add(listofcountries.get(RandNum));
+       }
+              
+           
+       return listofanswer;
+       
+   }
+   
+    
+    public static void main(String[] args) {
+            
+      
+    ArrayList listofcountries=new ArrayList();
+    File folder = new File("/Users/Nicolassabatier/Downloads/flags/flags/48");
+    File[] listOfFiles = folder.listFiles();
+    for (File file : listOfFiles) {
+    listofcountries.add(file.getName().replace(".png", ""));
+    }
+    listofcountries.remove(0);
+    ArrayList<String> ListofQuery= new ArrayList();
+    String query;
+    
+    
+      ArrayList f=new ArrayList();
+      for(int i=0;i<listofcountries.size();i++)
+      {
+          f =getNameRandom((String) listofcountries.get(i),listofcountries);
+          Collections.shuffle(f);
+        
+            query ="questions.add"+"(new Question"
+                  +"(R.drawable."+listofcountries.get(i)+",\""+listofcountries.get(i)+"\","+"\""+f.get(0)+"\","+"\""+f.get(1)+"\","+"\""+f.get(2)+"\","+"\""+f.get(3)+"\",\""+listofcountries.get(i)+"\")"+")";      
+          ListofQuery.add("\n"+query);
+          
+          
+      }
+      String res = String.join(";",ListofQuery );
+      System.out.println(res);
+}
+}
+
