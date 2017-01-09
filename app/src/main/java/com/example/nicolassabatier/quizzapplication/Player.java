@@ -13,16 +13,19 @@ public class Player implements Serializable {
 
     private int score;
     private String name;
+    private String email;
 
-    public Player() {
+    public Player(){}
 
-    }
-
-    public Player(String name, int score) {
-
-        this.name = name;
+    public Player(int score, String name, String email) {
         this.score = score;
+        this.name = name;
+        this.email = email;
     }
+
+
+
+
 
     public void setName(String name) {
         this.name = name;
@@ -39,6 +42,14 @@ public class Player implements Serializable {
 
     public int getScore() {
         return score;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 

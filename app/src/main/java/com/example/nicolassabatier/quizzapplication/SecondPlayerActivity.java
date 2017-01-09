@@ -40,6 +40,10 @@ public class SecondPlayerActivity extends AppCompatActivity
                 EditText nameField = (EditText) findViewById(R.id.registration_name2);
                 String name = nameField.getText().toString();
                 aplayer.setName(name);
+                EditText emailField = (EditText) findViewById(R.id.emailRegistration2);
+                String email = emailField.getText().toString(); // get the email of the player from the input
+                aplayer.setEmail(email); // stores the email of the new player
+
 
 
                 Intent intention = new Intent(SecondPlayerActivity.this, DisplayQuestionActivity.class);

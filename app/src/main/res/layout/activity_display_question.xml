@@ -129,6 +129,15 @@
         android:layout_toEndOf="@+id/imageButton8"
         android:id="@+id/imageButton15"/>
 
+    <Button
+        android:text="Let's Go ! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton15"
+        android:layout_toEndOf="@+id/imageButton9"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/button"/>
 
 
 </RelativeLayout>
