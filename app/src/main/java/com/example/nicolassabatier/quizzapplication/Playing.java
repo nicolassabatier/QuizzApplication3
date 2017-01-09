@@ -69,7 +69,7 @@ public class   Playing extends AppCompatActivity implements  android.view.View.O
 
         if (index < (questionsPlay.size())) {
 
-            //thisquestion++;
+
             int ImageId = this.getResources().getIdentifier(questionsPlay.get(index).getImage().toLowerCase(), "drawable", getPackageName());
 //          in order to get the corresponding flag from the resource: R.drawable.country_name
             mImageView.setBackgroundResource(ImageId);
@@ -101,17 +101,17 @@ public class   Playing extends AppCompatActivity implements  android.view.View.O
         Bundle mybundle = this.getIntent().getExtras(); // passing data from Playing Activity
         List<Question> questionsPlay = (List<Question>) mybundle.getSerializable("questionsPlay");
 
-        if (index < questionsPlay.size()) { // How is index incremented when it is the correct answer?
+        if (index < questionsPlay.size()) {
             Button PlayerAnswer = (Button) view;
             if (PlayerAnswer.getText().equals(questionsPlay.get(index).getCorrectAnswer())) { // click on the correct answer
 
-                score++;
+                score++;//increment the score
 
             }
             if (PlayerAnswer.getText().equals("Cheat")) { // click on the cheat button
 
                 Toast.makeText(Playing.this, "The answer was " + questionsPlay.get(index).getCorrectAnswer(), LENGTH_SHORT).show();
-                showQuestion(++index);
+                showQuestion(++index);//it goes to the next question
             } else {showQuestion(++index);
             }
 

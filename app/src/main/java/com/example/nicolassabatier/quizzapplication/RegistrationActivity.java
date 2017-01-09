@@ -206,13 +206,13 @@ public class RegistrationActivity extends AppCompatActivity
         questions.add(new Question(R.drawable.poland, "poland", "jersey", "poland", "costa_rica", "mexico", "poland"));
         questions.add(new Question(R.drawable.portugal, "portugal", "spain", "kenya", "djibouti", "portugal", "portugal"));
         questions.add(new Question(R.drawable.puerto_rico, "puerto_rico", "puerto_rico", "faroes", "faroes", "belarus", "puerto_rico"));
-        questions.add(new Question(R.drawable.qatar, "qatar", "bermuda", "cape_verde", "qatar", "qatar", "qatar"));
+        questions.add(new Question(R.drawable.qatar, "qatar", "bermuda", "cape_verde", "bahrain", "qatar", "qatar"));
         questions.add(new Question(R.drawable.red_cross, "red_cross", "chile", "turks_and_caicos_islands", "red_cross", "czech_republic", "red_cross"));
         questions.add(new Question(R.drawable.reunion, "reunion", "bulgaria", "western_sahara", "reunion", "cape_verde", "reunion"));
         questions.add(new Question(R.drawable.romania, "romania", "romania", "el_salvador", "portugal", "czech_republic", "romania"));
         questions.add(new Question(R.drawable.russian_federation, "russian_federation", "united_kingdom", "oman", "russian_federation", "swaziland", "russian_federation"));
         questions.add(new Question(R.drawable.rwanda, "rwanda", "yemen", "singapore", "paraguay", "rwanda", "rwanda"));
-        questions.add(new Question(R.drawable.saint_lucia, "saint_lucia", "croatia", "andorra", "saint_lucia", "saint_lucia", "saint_lucia"));
+        questions.add(new Question(R.drawable.saint_lucia, "saint_lucia", "croatia", "andorra", "uruguay", "saint_lucia", "saint_lucia"));
         questions.add(new Question(R.drawable.samoa, "samoa", "antarctica", "united_arab_emirates", "gambia", "samoa", "samoa"));
         questions.add(new Question(R.drawable.san_marino, "san_marino", "sudan", "sudan", "pakistan", "san_marino", "san_marino"));
         questions.add(new Question(R.drawable.sao_tome_principe, "sao_tome_principe", "algeria", "caricom", "sao_tome_principe", "morocco", "sao_tome_principe"));
@@ -272,12 +272,12 @@ public class RegistrationActivity extends AppCompatActivity
         questions.add(new Question(R.drawable.yemen, "yemen", "mexico", "st_vincent_the_grenadines", "greenland", "yemen", "yemen"));
         questions.add(new Question(R.drawable.zambia, "zambia", "finland", "palestine", "bhutan", "zambia", "zambia"));
         questions.add(new Question(R.drawable.zimbabwe, "zimbabwe", "lithuania", "moldova", "montserrat", "zimbabwe", "zimbabwe"));
-    }
+    } //Our database, using netbeans
 
 
     public void Questionsplay() {
         getAllquestions();
-        Collections.shuffle(questions);
+        Collections.shuffle(questions);//change randmoly the index of each questions
 
         int count = 0;
 
@@ -285,7 +285,7 @@ public class RegistrationActivity extends AppCompatActivity
             questionsPlay.add(questions.get(count));
             count++;
         }
-    }
+    } //pick 15 questions on the list, so there is no duplicate.
 
     @Override
 
@@ -307,11 +307,11 @@ public class RegistrationActivity extends AppCompatActivity
                 String email = emailField.getText().toString(); // get the email of the player from the input
                 aplayer.setEmail(email); // store the email of the new player
 
-                Questionsplay(); // added
+                Questionsplay(); // create the list of 15 questions
                 Intent intention = new Intent(RegistrationActivity.this,DisplayQuestionActivity.class);
                 intention.putExtra("aplayer",aplayer); // passing data to Playing Activity
-                Bundle bundle = new Bundle(); //added
-                bundle.putSerializable("questionsPlay", (Serializable) questionsPlay); //added
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("questionsPlay", (Serializable) questionsPlay);
                 intention.putExtras(bundle); //added
                 startActivity(intention);
 

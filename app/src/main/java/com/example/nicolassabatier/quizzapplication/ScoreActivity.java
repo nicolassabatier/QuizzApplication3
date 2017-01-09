@@ -19,9 +19,9 @@ import static android.R.layout.simple_list_item_1;
 
 public class ScoreActivity extends AppCompatActivity {
 
-    ArrayList<String> rrlist = new ArrayList<String>();//List to print
-    ArrayList<Integer> rrlist2 = new ArrayList<Integer>();
-    static ArrayList<Player> Playerlist = new ArrayList<>(); // STATIC to store the data
+    ArrayList<String> listofnames = new ArrayList<String>();//List to print
+    ArrayList<Integer> listofscores = new ArrayList<Integer>();//List to print
+    static ArrayList<Player> Playerlist = new ArrayList<>(); // STATIC to store and keep the datas
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +36,8 @@ public class ScoreActivity extends AppCompatActivity {
         SortTheScore(Playerlist);
         int PlayerListSize=Playerlist.size();
         for(int i=0;i<PlayerListSize;i++) {
-            rrlist.add(Playerlist.get(i).getName());
-            rrlist2.add(Playerlist.get(i).getScore());
+            listofnames.add(Playerlist.get(i).getName());
+            listofscores.add(Playerlist.get(i).getScore());
         }
 
 
@@ -45,9 +45,9 @@ public class ScoreActivity extends AppCompatActivity {
         ListView ScoreList = (ListView) findViewById(R.id.Score_list);//
 
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, simple_list_item_1, rrlist);//adapater to convert the  list in a readable format for Listview
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, simple_list_item_1, listofnames);//adapater to convert the  list in a readable format for Listview
         PlayerList.setAdapter(adapter);//
-        ArrayAdapter<Integer> adapter_score = new ArrayAdapter<Integer>(this, simple_list_item_1, rrlist2);
+        ArrayAdapter<Integer> adapter_score = new ArrayAdapter<Integer>(this, simple_list_item_1, listofscores);
         ScoreList.setAdapter(adapter_score);
 
         Button mButton = (Button) findViewById(R.id.restart);
