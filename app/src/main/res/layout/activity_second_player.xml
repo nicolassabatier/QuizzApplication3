@@ -10,6 +10,14 @@
         android:hint="@string/name2"
 
         android:id="@+id/registration_name2"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailRegistration2"
+        android:hint="Email"
+        android:layout_below="@+id/registration_name2"
+        android:layout_alignParentStart="true"/>
 
     <Button
         android:text="@string/Start_Button"

@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="cc4b31b0d6a746966db996447a77c9f1a35a5cdc">
+        sha1="022ffda26e30d8227eee07687835489a65b6fcdf">
         <dex dex="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5789e6bb30f7dfc713bb36b5fd00d01a0f3f2f9/classes.dex" />
     </item>
     <item
@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_756b7b76df049d8dba78158388412d84efda48cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
         <dex dex="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_60e6158e2b5e94f0efaa6c6786f7e4b5a238a9cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_756b7b76df049d8dba78158388412d84efda48cc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="716ad694e7499822439591dc4ea079c978b1cce4">
+        sha1="85e55815997266dcd1834128617a71894b950b85">
         <dex dex="/Users/dylangreed/Documents/QuizzApplication3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6d777754eb09070e0f6d21d7003678843443f9bc/classes.dex" />
     </item>
     <item

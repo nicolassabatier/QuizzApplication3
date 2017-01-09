@@ -303,6 +303,9 @@ public class RegistrationActivity extends AppCompatActivity
                 EditText nameField = (EditText) findViewById(R.id.registration_name);
                 String name = nameField.getText().toString(); // get the name of the player from the input
                 aplayer.setName(name); // stores the name of the new player
+                EditText emailField = (EditText) findViewById(R.id.emailRegistration);
+                String email = emailField.getText().toString(); // get the email of the player from the input
+                aplayer.setEmail(email); // store the email of the new player
 
                 Questionsplay(); // added
                 Intent intention = new Intent(RegistrationActivity.this,DisplayQuestionActivity.class);
